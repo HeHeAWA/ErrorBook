@@ -1,0 +1,22 @@
+# ===== 依赖 =====
+node_modules/
+
+# ===== 运行时数据（首次启动由 server.js 自动生成模板，含用户/错题等隐私数据） =====
+data/
+
+# ===== 日志 =====
+logs/
+*.log
+
+# ===== 用户上传图片（运行时产生） =====
+public/img/uploads/
+
+# ===== 构建缓存 / 临时文件 =====
+frontend/vite.config.js.timestamp-*.mjs
+*.local
+
+# ===== 系统文件 =====
+.DS_Store
+
+# ===== 工具内部状态（不纳入版本控制） =====
+.workbuddy/
